@@ -4,12 +4,15 @@ Updates AWS API Gateway using a API created with django-rest-framework as base.
 
 Because DRF doesn't generate a Swagger 2.0 JSON file and AWS doesn't work with Swagger 1.2.
 
+## Install
+
+Install it using pip or simply clone this repository.
 
 ## Usage
 
     python3 -m drf_to_api_gw https://example.com/v1/docs/api-docs API_NAME
 
-If your app is running on heroku, you can use:
+If your app is running on **Heroku**, you can use:
 
     python3 -m drf_to_api_gw heroku:HEROKU-APP-NAME API_NAME
 
@@ -17,6 +20,6 @@ If your app is running on heroku, you can use:
 "API_NAME" is the name of the API as you would like it to be on AWS API Gateway.
 
 
-## Tanks
+## Thanks
 
  * apimatic.io and this nice tool: https://apitransformer.com/
