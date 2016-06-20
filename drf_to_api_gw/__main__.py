@@ -11,7 +11,7 @@ title = sys.argv[2]
 
 if url.startswith('heroku:'):
     url = url.split(':')[1]
-    url = "https://{}.herokuapp.com/v1/docs/api-docs".format(url)
+    url = "https://{}.herokuapp.com/v1/docs/api-docs/".format(url)
 
 # Transform into Swagger 2.0:
 swagger20 = apitransformer.transform(url)
