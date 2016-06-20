@@ -10,7 +10,7 @@ Install it using pip or simply clone this repository.
 
 ## Requirements
 
- * AWS CLI (the "aws" command).
+ * AWS CLI (the "aws" command) (aws-cli >= 1.10.38).
 
 ## Usage
 
